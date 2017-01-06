@@ -1,0 +1,10 @@
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.DomainModel\bin\Debug\ProjectBugManager.DomainModel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.DomainModel\bin\Debug\ProjectBugManager.DomainModel.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.DomainModel\obj\Debug\ProjectBugManager.DomainModel.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.DomainModel\obj\Debug\ProjectBugManager.DomainModel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.DomainModel\obj\Debug\ProjectBugManager.DomainModel.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.DomainModel\bin\Debug\ProjectBugManager.DomainModel.dll
+D:\Study\ProjectBugManager\ProjectBugManager.DomainModel\bin\Debug\ProjectBugManager.DomainModel.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.DomainModel\obj\Debug\ProjectBugManager.DomainModel.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjectBugManager.DomainModel\obj\Debug\ProjectBugManager.DomainModel.dll
+D:\Study\ProjectBugManager\ProjectBugManager.DomainModel\obj\Debug\ProjectBugManager.DomainModel.pdb

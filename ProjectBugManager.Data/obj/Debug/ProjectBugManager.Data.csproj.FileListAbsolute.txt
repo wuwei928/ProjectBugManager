@@ -1,0 +1,28 @@
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.Data.dll.config
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.Data.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.Data.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.DomainModel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.DomainModel.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.Migrations.DatabaseInit.resources
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.csproj.GenerateResource.Cache
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.Data.dll.config
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.Data.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.Data.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.DomainModel.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\ProjectBugManager.DomainModel.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.xml
+D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.Migrations.DatabaseInit.resources
+D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.csproj.GenerateResource.Cache
+D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.pdb

@@ -1,0 +1,38 @@
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\obj\Debug\ProjectBugManager.Service.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Service.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Service.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Core.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Windsor.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Data.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.DomainModel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IRepository.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IService.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\EntityFramework.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Data.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.DomainModel.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IRepository.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IService.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Core.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Windsor.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\bin\Debug\EntityFramework.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\obj\Debug\ProjectBugManager.Service.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.Service\obj\Debug\ProjectBugManager.Service.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Service.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Service.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Core.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Windsor.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Data.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.DomainModel.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IRepository.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IService.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\EntityFramework.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.Data.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.DomainModel.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IRepository.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\ProjectBugManager.IService.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Core.xml
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\Castle.Windsor.xml
+D:\Study\ProjectBugManager\ProjectBugManager.Service\bin\Debug\EntityFramework.xml
+D:\Study\ProjectBugManager\ProjectBugManager.Service\obj\Debug\ProjectBugManager.Service.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjectBugManager.Service\obj\Debug\ProjectBugManager.Service.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Service\obj\Debug\ProjectBugManager.Service.pdb

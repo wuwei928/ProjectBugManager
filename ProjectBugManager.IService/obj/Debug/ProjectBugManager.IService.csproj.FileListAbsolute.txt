@@ -1,0 +1,14 @@
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.IService.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.IService.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.DomainModel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.DomainModel.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.IService\obj\Debug\ProjectBugManager.IService.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.IService\obj\Debug\ProjectBugManager.IService.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.IService\obj\Debug\ProjectBugManager.IService.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.IService.dll
+D:\Study\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.IService.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.DomainModel.dll
+D:\Study\ProjectBugManager\ProjectBugManager.IService\bin\Debug\ProjectBugManager.DomainModel.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.IService\obj\Debug\ProjectBugManager.IService.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjectBugManager.IService\obj\Debug\ProjectBugManager.IService.dll
+D:\Study\ProjectBugManager\ProjectBugManager.IService\obj\Debug\ProjectBugManager.IService.pdb

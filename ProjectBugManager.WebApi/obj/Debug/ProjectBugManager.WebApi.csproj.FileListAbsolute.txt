@@ -1,0 +1,104 @@
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ApplicationInsights.config
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.WebApi.dll.config
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.WebApi.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.WebApi.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Core.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Windsor.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.Web.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjecBugManager.Repository.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Service.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Swashbuckle.Core.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\WebActivatorEx.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IRepository.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.DomainModel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Data.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IService.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjecBugManager.Repository.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Service.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Core.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Windsor.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.Web.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IRepository.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.DomainModel.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Data.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IService.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.SqlServer.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ApplicationInsights.config
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.WebApi.dll.config
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.WebApi.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.WebApi.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Core.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Windsor.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.SqlServer.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.Web.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.WindowsServer.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.ApplicationInsights.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Newtonsoft.Json.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjecBugManager.Repository.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.DomainModel.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IService.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Service.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Swashbuckle.Core.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Net.Http.Formatting.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.WebHost.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\WebActivatorEx.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IRepository.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Data.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjecBugManager.Repository.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.DomainModel.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IService.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Service.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Core.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Castle.Windsor.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\EntityFramework.SqlServer.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.Web.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.AI.WindowsServer.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Microsoft.ApplicationInsights.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\Newtonsoft.Json.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Net.Http.Formatting.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.WebHost.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.IRepository.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Data.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.pdb

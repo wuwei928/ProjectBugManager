@@ -1,0 +1,40 @@
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjecBugManager.Repository.dll.config
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjecBugManager.Repository.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjecBugManager.Repository.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Core.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Windsor.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.Data.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.DomainModel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.IRepository.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.Data.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.DomainModel.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.IRepository.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Core.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Windsor.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\obj\Debug\ProjecBugManager.Repository.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\obj\Debug\ProjecBugManager.Repository.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjecBugManager.Repository\obj\Debug\ProjecBugManager.Repository.pdb
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjecBugManager.Repository.dll.config
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjecBugManager.Repository.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjecBugManager.Repository.pdb
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Core.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Windsor.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.Data.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.DomainModel.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.IRepository.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.Data.pdb
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.DomainModel.pdb
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\ProjectBugManager.IRepository.pdb
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Core.xml
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\Castle.Windsor.xml
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.xml
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\obj\Debug\ProjecBugManager.Repository.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\obj\Debug\ProjecBugManager.Repository.dll
+D:\Study\ProjectBugManager\ProjecBugManager.Repository\obj\Debug\ProjecBugManager.Repository.pdb

@@ -1,0 +1,66 @@
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\ApplicationInsights.config
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\csc.exe
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\vbc.exe
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\ProjectBugManager.Web.dll.config
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\ProjectBugManager.Web.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\ProjectBugManager.Web.pdb
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.Web.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.ApplicationInsights.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.Web.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.ApplicationInsights.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\obj\Debug\ProjectBugManager.Web.csprojResolveAssemblyReference.cache
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\obj\Debug\ProjectBugManager.Web.dll
+C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\obj\Debug\ProjectBugManager.Web.pdb
+D:\Study\ProjectBugManager\ProjectBugManager\obj\Debug\ProjectBugManager.Web.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjectBugManager\obj\Debug\ProjectBugManager.Web.dll
+D:\Study\ProjectBugManager\ProjectBugManager\obj\Debug\ProjectBugManager.Web.pdb
+D:\Study\ProjectBugManager\ProjectBugManager\bin\ApplicationInsights.config
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\csc.exe
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\System.Collections.Immutable.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\System.Reflection.Metadata.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\vbc.exe
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\VBCSCompiler.exe
+D:\Study\ProjectBugManager\ProjectBugManager\bin\roslyn\VBCSCompiler.exe.config
+D:\Study\ProjectBugManager\ProjectBugManager\bin\ProjectBugManager.Web.dll.config
+D:\Study\ProjectBugManager\ProjectBugManager\bin\ProjectBugManager.Web.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\ProjectBugManager.Web.pdb
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.DependencyCollector.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.Web.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.WindowsServer.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.ApplicationInsights.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.DependencyCollector.xml
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.Web.xml
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.AI.WindowsServer.xml
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.ApplicationInsights.xml
+D:\Study\ProjectBugManager\ProjectBugManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
