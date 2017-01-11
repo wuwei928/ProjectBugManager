@@ -8,11 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var common_1 = require('@angular/common');
-var projectModel_1 = require('../model/projectModel');
-var project_service_1 = require('../service/project.service');
+var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
+var common_1 = require("@angular/common");
+var projectModel_1 = require("../model/projectModel");
+var project_service_1 = require("../service/project.service");
 var EditProjectComponent = (function () {
     function EditProjectComponent(projectService, router, location) {
         this.projectService = projectService;
@@ -32,15 +32,17 @@ var EditProjectComponent = (function () {
     EditProjectComponent.prototype.goBack = function () {
         this.location.back();
     };
-    EditProjectComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'editproject',
-            templateUrl: '../template/project.Component.html'
-        }), 
-        __metadata('design:paramtypes', [project_service_1.ProjectService, router_1.ActivatedRoute, common_1.Location])
-    ], EditProjectComponent);
     return EditProjectComponent;
 }());
+EditProjectComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'editproject',
+        templateUrl: '../template/project.Component.html'
+    }),
+    __metadata("design:paramtypes", [project_service_1.ProjectService,
+        router_1.ActivatedRoute,
+        common_1.Location])
+], EditProjectComponent);
 exports.EditProjectComponent = EditProjectComponent;
 //# sourceMappingURL=editProjectComponent.js.map

@@ -13,14 +13,14 @@ import { ProjectService } from '../service/project.service'
 
 export class AddProjectComponent {
     project = new Project('', 'wu', 'wei');
-    constructor(private projectService: ProjectService, 
-    private router:Router,
-    private location: Location) { }
+    constructor(private projectService: ProjectService,
+        private router: Router,
+        private location: Location) { }
     onSubmit() {
-        this.projectService.createProject(this.project.Name, this.project.Remark).then(()=>this.goBack());
+        this.projectService.createProject(this.project.Name, this.project.Remark).then(() => this.goBack());
     }
     goBack() {
-         this.location.back();
+        this.location.back();
         // this.router.navigate(['/projects']);
     }
     // get debug() { return JSON.stringify(this.project); }

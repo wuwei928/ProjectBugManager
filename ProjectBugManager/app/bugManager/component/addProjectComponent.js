@@ -8,11 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var projectModel_1 = require('../model/projectModel');
-var common_1 = require('@angular/common');
-var router_1 = require('@angular/router');
-var project_service_1 = require('../service/project.service');
+var core_1 = require("@angular/core");
+var projectModel_1 = require("../model/projectModel");
+var common_1 = require("@angular/common");
+var router_1 = require("@angular/router");
+var project_service_1 = require("../service/project.service");
 var AddProjectComponent = (function () {
     function AddProjectComponent(projectService, router, location) {
         this.projectService = projectService;
@@ -28,15 +28,17 @@ var AddProjectComponent = (function () {
         this.location.back();
         // this.router.navigate(['/projects']);
     };
-    AddProjectComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'project',
-            templateUrl: '../template/project.Component.html'
-        }), 
-        __metadata('design:paramtypes', [project_service_1.ProjectService, router_1.Router, common_1.Location])
-    ], AddProjectComponent);
     return AddProjectComponent;
 }());
+AddProjectComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'project',
+        templateUrl: '../template/project.Component.html'
+    }),
+    __metadata("design:paramtypes", [project_service_1.ProjectService,
+        router_1.Router,
+        common_1.Location])
+], AddProjectComponent);
 exports.AddProjectComponent = AddProjectComponent;
 //# sourceMappingURL=addProjectComponent.js.map

@@ -1,228 +1,28 @@
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-c:\users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\userComponent.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js
-C:\Users\admin\documents\visual studio 2015\Projects\ProjectBugManager\ProjectBugManager\app\main.js.map
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\share.service.js
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\share.service.js.map
 D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js
 D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
+D:\Study\ProjectBugManager\ProjectBugManager\app\vendor.js
+D:\Study\ProjectBugManager\ProjectBugManager\app\vendor.js.map
 D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
 D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
 D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
 D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
 D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
 D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\addProjectComponent.js
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\addProjectComponent.js.map
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\editProjectComponent.js
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\editProjectComponent.js.map
 D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
 D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
 D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js
 D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\main.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.component.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\rxjs-operators.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\projectModel.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\project.service.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\projectListComponent.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app-routing.module.js.map
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js
-D:\Study\ProjectBugManager\ProjectBugManager\app\app.module.js.map
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\user\userListComponent.js
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\component\user\userListComponent.js.map
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\UserModel.js
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\model\UserModel.js.map
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\user.service.js
+D:\Study\ProjectBugManager\ProjectBugManager\app\bugManager\service\user.service.js.map
 D:\Study\ProjectBugManager\ProjectBugManager\app\main.js
 D:\Study\ProjectBugManager\ProjectBugManager\app\main.js.map

@@ -1,4 +1,5 @@
 ﻿<html>
+
 <head>
     <title>Angular QuickStart</title>
     <meta charset="UTF-8">
@@ -12,20 +13,34 @@
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-   <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
     <script src="xdomain.js"></script>
     <!-- 2. Configure SystemJS -->
     <base href="/">
     <script src="systemjs.config.js"></script>
     <script>
-        System.import('app').catch(function (err) { console.error(err); });
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
         xdomain.slaves({
             'http://localhost:42833': "/proxy.html"
         });
     </script>
 </head>
 <!-- 3. Display the application -->
+
 <body>
     <layout>Loading..</layout>
+    <footer id="footer">
+        <div class="col-xs-3">
+            <span class="text-uppercase">Butler</span> <br /> Forefront lokalbokning
+        </div>
+        <div class="col-xs-9">
+            <div class="pull-right support-email">
+                butler.support@svenskhandel.se
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

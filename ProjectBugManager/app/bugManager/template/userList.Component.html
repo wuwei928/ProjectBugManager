@@ -1,0 +1,52 @@
+<div class="row" style="margin-top: 10px">
+    <div class="col-sm-12 controll table-filter">
+        <div class="form-inline" style="margin-bottom: 10px;">
+            <div class="input-group">
+                <input type="text" class="form-control" [(ngModel)]="name" name="name">
+                <span class="input-group-btn">
+                         <button class="btn btn-default" type="button" (click)="searchProject()">Search</button>
+                    </span>
+            </div>
+            <a class="btn btn-primary pull-right uppercase-text" routerLink="/addProject">Add</a>
+        </div>
+    </div>
+    <div class="col-sm-12 column-filter-table div-table-min-height">
+        <table class="table tablesorter-blue">
+            <thead>
+                <tr class="uppercase-text tablesorter-headerRow">
+                    <th>
+                        project
+                    </th>
+                    <th>Remark </th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let project of projects">
+                    <td>{{project.Name}}</td>
+                    <td>{{project.Remark}}</td>
+                    <td><a style="cursor: hand" [routerLink]="['/editProject',project.Id]">Edit</a>
+                        <a style="cursor: hand" (click)="deleteProject(project.Id)">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" (click)="lgModal.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Large modal</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+ 

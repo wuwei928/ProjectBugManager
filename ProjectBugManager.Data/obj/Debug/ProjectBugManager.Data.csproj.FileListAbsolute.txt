@@ -23,6 +23,7 @@ D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.xml
 D:\Study\ProjectBugManager\ProjectBugManager.Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.csprojResolveAssemblyReference.cache
 D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.Migrations.DatabaseInit.resources
+D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.Migrations.AddUserTable.resources
 D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.csproj.GenerateResource.Cache
 D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.dll
 D:\Study\ProjectBugManager\ProjectBugManager.Data\obj\Debug\ProjectBugManager.Data.pdb

@@ -1,1 +1,1 @@
-{"version":3,"file":"projectModel.js","sourceRoot":"","sources":["projectModel.ts"],"names":[],"mappings":";AAAA;IACI,iBAAmB,EAAS,EACjB,IAAY,EACZ,MAAc;QAFN,OAAE,GAAF,EAAE,CAAO;QACjB,SAAI,GAAJ,IAAI,CAAQ;QACZ,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAClC,cAAC;AAAD,CAAC,AAJD,IAIC;AAJY,eAAO,UAInB,CAAA"}
+{"version":3,"file":"projectModel.js","sourceRoot":"","sources":["projectModel.ts"],"names":[],"mappings":";AAAA;IACI,iBAAmB,EAAS,EACjB,IAAY,EACZ,MAAc;QAFN,OAAE,GAAF,EAAE,CAAO;QACjB,SAAI,GAAJ,IAAI,CAAQ;QACZ,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAClC,cAAC;AAAD,CAAC,AAJD,IAIC;AAJY,0BAAO"}
