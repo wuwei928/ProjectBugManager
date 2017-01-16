@@ -10,12 +10,21 @@ import { ShareService } from './bugManager/service/share.service'
 })
 
 export class AppComponent {
+    // pageTitle: string;
+    // subscription: any;
     constructor(private shareService: ShareService) { }
     isLoading = this.shareService.isLoading;
     pageTitle = this.shareService.pageTitle;
-    ngOnInit(){
-        //this.isLoading=false;
-    }
+    // ngOnInit() {
+    //     this.pageTitle = this.shareService.setTitle();
+    //     this.subscription = this.shareService._titleChange.subscribe(
+    //         item => this.pageTitle = item);
+    // }
+
+    // ngOnDestroy(){
+    //     this.subscription.unsubscribe();
+    // }
+
 }
 
 

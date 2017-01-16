@@ -8,17 +8,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
+// import { Observable } from 'rxjs/Observable'
+// import { Observer } from 'rxjs/Observer'
+var core_1 = require('@angular/core');
 var ShareService = (function () {
     function ShareService() {
         this.isLoading = false;
         this.pageTitle = 'test';
     }
+    ShareService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [])
+    ], ShareService);
     return ShareService;
 }());
-ShareService = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [])
-], ShareService);
 exports.ShareService = ShareService;
 //# sourceMappingURL=share.service.js.map

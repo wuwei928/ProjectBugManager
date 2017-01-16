@@ -8,9 +8,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var http_1 = require("@angular/http");
-var rxjs_1 = require("rxjs");
+var core_1 = require('@angular/core');
+var http_1 = require('@angular/http');
+var rxjs_1 = require('rxjs');
 var UserService = (function () {
     function UserService(http) {
         this.http = http;
@@ -37,11 +37,11 @@ var UserService = (function () {
         console.error(errMsg);
         return rxjs_1.Observable.throw(errMsg);
     };
+    UserService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [http_1.Http])
+    ], UserService);
     return UserService;
 }());
-UserService = __decorate([
-    core_1.Injectable(),
-    __metadata("design:paramtypes", [http_1.Http])
-], UserService);
 exports.UserService = UserService;
 //# sourceMappingURL=user.service.js.map

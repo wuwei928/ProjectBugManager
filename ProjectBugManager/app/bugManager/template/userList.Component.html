@@ -1,4 +1,5 @@
 <div class="row" style="margin-top: 10px">
+    <h1 myHighLight="green">Test directive</h1>
     <div class="col-sm-12 controll table-filter">
         <div class="form-inline" style="margin-bottom: 10px;">
             <div class="input-group">
@@ -7,7 +8,7 @@
                          <button class="btn btn-default" type="button" (click)="searchProject()">Search</button>
                     </span>
             </div>
-            <a class="btn btn-primary pull-right uppercase-text" routerLink="/addProject">Add</a>
+            <a class="btn btn-primary pull-right uppercase-text" (click)="lgModal.show()">Add</a>
         </div>
     </div>
     <div class="col-sm-12 column-filter-table div-table-min-height">

@@ -1,18 +1,20 @@
 import './vendor';
-import { Observable } from 'rxjs'
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { ModalModule } from 'ng2-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ModalModule } from 'ng2-bootstrap'
+import { HighLightDirective } from './bugManager/direactive/highlight'
 
 import { ProjectListComponent } from './bugManager/component/projectListComponent'
 import { AddProjectComponent } from './bugManager/component/addProjectComponent'
 import { EditProjectComponent } from './bugManager/component/editProjectComponent'
+import { UserListComponent } from './bugManager/component/user/userListComponent'
+import { TestComponent } from './bugManager/component/testComponent'
 
 import { ProjectService } from './bugManager/service/project.service'
 import { ShareService } from './bugManager/service/share.service'
@@ -22,9 +24,12 @@ import { ShareService } from './bugManager/service/share.service'
         BrowserModule,
         FormsModule,
         HttpModule,
-        AppRoutingModule
+        AppRoutingModule,
+        ModalModule.forRoot()
     ],
-    declarations: [ProjectListComponent, AppComponent, AddProjectComponent, EditProjectComponent],
+    declarations: [ProjectListComponent, AppComponent,
+        AddProjectComponent, EditProjectComponent,
+        UserListComponent, HighLightDirective,TestComponent],
     providers: [ProjectService, ShareService],
     bootstrap: [AppComponent]
 })

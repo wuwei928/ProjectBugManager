@@ -2,6 +2,7 @@ import { Component } from '@angular/core'
 import { Location } from '@angular/common'
 
 import { Project } from '../model/projectModel'
+import { ShareService } from '../service/share.service'
 import { ProjectService } from '../service/project.service'
 
 @Component({
@@ -14,7 +15,7 @@ export class ProjectListComponent {
     projects: Project[];
     backupProjects: Project[];
     name = "";
-    constructor(private projectService: ProjectService,
+    constructor(private projectService: ProjectService, private shareService: ShareService,
         private location: Location) { }
 
     getProjects(): void {
@@ -29,6 +30,7 @@ export class ProjectListComponent {
     }
 
     ngOnInit(): void {
+        this.shareService.pageTitle = 'ProjectList';
         this.getProjects();
     }
 

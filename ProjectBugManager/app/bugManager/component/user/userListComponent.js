@@ -8,19 +8,43 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var UserList = (function () {
-    function UserList() {
+var core_1 = require('@angular/core');
+var common_1 = require('@angular/common');
+var project_service_1 = require('../../service/project.service');
+var share_service_1 = require('../../service/share.service');
+var UserListComponent = (function () {
+    function UserListComponent(projectService, shareService, location) {
+        this.projectService = projectService;
+        this.shareService = shareService;
+        this.location = location;
+        this.name = "";
     }
-    return UserList;
+    UserListComponent.prototype.getProjects = function () {
+        var _this = this;
+        this.projectService
+            .getProjects()
+            .then(function (projects) { return _this.backupProject(projects); });
+    };
+    UserListComponent.prototype.backupProject = function (projects) {
+        this.projects = projects;
+        this.backupProjects = projects;
+    };
+    UserListComponent.prototype.ngOnInit = function () {
+        this.getProjects();
+    };
+    UserListComponent.prototype.ngAfterViewChecked = function () {
+        // this.shareService.changeTitle("UserList");
+        this.shareService.pageTitle = "Test";
+    };
+    UserListComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: 'userList',
+            templateUrl: '../../template/UserList.Component.html'
+        }), 
+        __metadata('design:paramtypes', [project_service_1.ProjectService, share_service_1.ShareService, common_1.Location])
+    ], UserListComponent);
+    return UserListComponent;
 }());
-UserList = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: 'userList',
-        templateUrl: ''
-    }),
-    __metadata("design:paramtypes", [])
-], UserList);
-exports.UserList = UserList;
+exports.UserListComponent = UserListComponent;
 //# sourceMappingURL=userListComponent.js.map

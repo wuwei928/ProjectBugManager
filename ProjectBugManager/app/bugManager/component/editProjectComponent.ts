@@ -18,8 +18,12 @@ export class EditProjectComponent {
         private router: ActivatedRoute,
         private location: Location) { }
     ngOnInit(): void {
+
         this.router.params.switchMap((params: Params) => this.projectService.getProjectById(params['id']))
-            .subscribe(project => this.project=project)
+            .subscribe(project => this.project = project)
+
+        // let id = this.router.snapshot.params['id'];
+        // this.projectService.getProjectById(id).then(project => this.project = project);
     }
     onSubmit() {
         this.projectService.updateProject(this.project).then(() => this.goBack())

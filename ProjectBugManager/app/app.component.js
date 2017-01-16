@@ -8,26 +8,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var share_service_1 = require("./bugManager/service/share.service");
+var core_1 = require('@angular/core');
+var share_service_1 = require('./bugManager/service/share.service');
 var AppComponent = (function () {
+    // pageTitle: string;
+    // subscription: any;
     function AppComponent(shareService) {
         this.shareService = shareService;
         this.isLoading = this.shareService.isLoading;
         this.pageTitle = this.shareService.pageTitle;
     }
-    AppComponent.prototype.ngOnInit = function () {
-        //this.isLoading=false;
-    };
+    AppComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: 'layout',
+            templateUrl: './bugManager/template/layout.Component.html'
+        }), 
+        __metadata('design:paramtypes', [share_service_1.ShareService])
+    ], AppComponent);
     return AppComponent;
 }());
-AppComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: 'layout',
-        templateUrl: './bugManager/template/layout.Component.html'
-    }),
-    __metadata("design:paramtypes", [share_service_1.ShareService])
-], AppComponent);
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map

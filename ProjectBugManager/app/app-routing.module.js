@@ -8,28 +8,32 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
-var router_1 = require("@angular/router");
-var projectListComponent_1 = require("./bugManager/component/projectListComponent");
-var addProjectComponent_1 = require("./bugManager/component/addProjectComponent");
-var editProjectComponent_1 = require("./bugManager/component/editProjectComponent");
+var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
+var projectListComponent_1 = require('./bugManager/component/projectListComponent');
+var addProjectComponent_1 = require('./bugManager/component/addProjectComponent');
+var editProjectComponent_1 = require('./bugManager/component/editProjectComponent');
+var userListComponent_1 = require('./bugManager/component/user/userListComponent');
+var testComponent_1 = require('./bugManager/component/testComponent');
 var routers = [
     { path: '', redirectTo: '/projects', pathMatch: 'full' },
     { path: 'projects', component: projectListComponent_1.ProjectListComponent },
     { path: 'addProject', component: addProjectComponent_1.AddProjectComponent },
-    { path: 'editProject/:id', component: editProjectComponent_1.EditProjectComponent }
+    { path: 'editProject/:id', component: editProjectComponent_1.EditProjectComponent },
+    { path: 'users', component: userListComponent_1.UserListComponent },
+    { path: 'test', component: testComponent_1.TestComponent }
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
     }
+    AppRoutingModule = __decorate([
+        core_1.NgModule({
+            imports: [router_1.RouterModule.forRoot(routers)],
+            exports: [router_1.RouterModule]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppRoutingModule);
     return AppRoutingModule;
 }());
-AppRoutingModule = __decorate([
-    core_1.NgModule({
-        imports: [router_1.RouterModule.forRoot(routers)],
-        exports: [router_1.RouterModule]
-    }),
-    __metadata("design:paramtypes", [])
-], AppRoutingModule);
 exports.AppRoutingModule = AppRoutingModule;
 //# sourceMappingURL=app-routing.module.js.map
