@@ -9,6 +9,7 @@ using ProjectBugManager.WebApi.Models;
 
 namespace ProjectBugManager.WebApi.Controllers
 {
+    [RoutePrefix("api/projects")]
     public class ProjectController : ApiController
     {
         private readonly IProjectService _projectService;
@@ -17,7 +18,7 @@ namespace ProjectBugManager.WebApi.Controllers
         {
             _projectService = projectService;
         }
-        [Route("api/projects")]
+        [Route("")]
         [HttpGet]
         public List<ProjectViewModel> GetProjects()
         {
@@ -32,7 +33,7 @@ namespace ProjectBugManager.WebApi.Controllers
             return projects;
         }
 
-        [Route("api/projects")]
+        [Route("")]
         [HttpPost]
         public void CreateProject(ProjectViewModel projectDodel)
         {
@@ -45,7 +46,7 @@ namespace ProjectBugManager.WebApi.Controllers
             _projectService.Create(project);
         }
 
-        [Route("api/projects")]
+        [Route("")]
         [HttpPut]
         public void EditProject(ProjectViewModel projectDodel)
         {
@@ -58,7 +59,7 @@ namespace ProjectBugManager.WebApi.Controllers
             _projectService.Update(project);
         }
 
-        [Route("api/projects/{id}")]
+        [Route("{id}")]
         [HttpGet]
         public ProjectViewModel GetProjectById(string id)
         {
