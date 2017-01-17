@@ -73,7 +73,7 @@ namespace ProjectBugManager.WebApi.Controllers
             };
         }
 
-        [Route("api/projects/{id}")]
+        [Route("{id}")]
         [HttpDelete]
         public void DeleteProject(string id)
         {
