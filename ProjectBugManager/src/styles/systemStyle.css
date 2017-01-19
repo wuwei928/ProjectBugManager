@@ -43,3 +43,10 @@
     color: white;
     padding-top: 10px;
 }
+.global-message {
+  position: absolute;
+  width: 250px;
+  top: 10px;
+  left: 43%;
+  z-index: 2000;
+}

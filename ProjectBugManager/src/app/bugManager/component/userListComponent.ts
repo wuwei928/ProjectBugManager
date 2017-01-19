@@ -69,6 +69,5 @@ export class UserListComponent {
         this.shareService.openLoading();
         this.userService.deleteUser(this.userId).subscribe(() => this.getUsers());
         this.shareService.clossLoading();
-
     }
 }

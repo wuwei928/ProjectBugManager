@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { ModalModule } from 'ng2-bootstrap';
+import { ModalModule,AlertModule } from 'ng2-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -26,7 +26,8 @@ import { UserService } from './bugManager/service/user.service'
         FormsModule,
         HttpModule,
         AppRoutingModule,
-        ModalModule.forRoot()
+        ModalModule.forRoot(),
+        AlertModule.forRoot()
     ],
     declarations: [ProjectListComponent, AppComponent,
         AddProjectComponent, EditProjectComponent,
