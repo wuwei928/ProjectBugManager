@@ -102,3 +102,6 @@ D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Data.p
 D:\Study\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.csprojResolveAssemblyReference.cache
 D:\Study\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.dll
 D:\Study\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.WebApi.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Cors.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.Cors.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.Cors.xml

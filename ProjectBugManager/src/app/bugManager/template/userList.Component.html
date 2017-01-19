@@ -1,0 +1,90 @@
+<div class="row" style="margin-top: 10px">
+  <!--<h1 myHighLight="green">Test directive</h1>-->
+  <div class="col-sm-12 controll table-filter">
+    <div class="form-inline" style="margin-bottom: 10px;">
+      <div class="input-group">
+        <input type="text" class="form-control" [(ngModel)]="name" name="name">
+        <span class="input-group-btn">
+                         <button class="btn btn-default" type="button" (click)="searchProject()">Search</button>
+                    </span>
+      </div>
+      <a class="btn btn-primary pull-right uppercase-text" (click)="addUser()">Add</a>
+    </div>
+  </div>
+  <div class="col-sm-12 column-filter-table div-table-min-height">
+    <table class="table tablesorter-blue">
+      <thead>
+        <tr class="uppercase-text tablesorter-headerRow">
+          <th>First name</th>
+          <th>Last name </th>
+          <th>Principal </th>
+          <th>User name </th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{user.FirstName}}</td>
+          <td>{{user.LastName}}</td>
+          <td>{{user.Principal}}</td>
+          <td>{{user.UserName}}</td>
+          <td><a style="cursor: hand" (click)="editUser(user.Id)">Edit</a>
+            <a style="cursor: hand" (click)="shwoDeleteUserModal(user.Id)">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div bsModal #userModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" [config]="{backdrop: 'static'}" aria-labelledby="myLargeModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">Large modal</h4>
+        <button type="button" class="close pull-right" (click)="userModal.hide()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form (ngSubmit)="onSubmit()" #userForm="ngForm">
+          <div class="form-group">
+            <label>First name</label>
+            <input type="text" class="form-control" required [(ngModel)]="user.FirstName" name="firstName">
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" class="form-control" [(ngModel)]="user.LastName" name="lastName">
+          </div>
+          <div class="form-group">
+            <label>Principal</label>
+            <input type="text" class="form-control" required [(ngModel)]="user.Principal" name="principal">
+          </div>
+          <div class="form-group">
+            <label>User Name</label>
+            <input type="text" class="form-control" [(ngModel)]="user.UserName" name="userName">
+          </div>
+          <button type="submit" class="btn btn-default pull-right" [disabled]="!userForm.form.valid">Submit</button>
+        </form>
+        <button (click)="userModal.hide()" class="btn btn-default pull-right">Cancel</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div bsModal #deleteUserModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" [config]="{backdrop: 'static'}" aria-labelledby="mySmallModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title pull-left">Small modal</h4>
+          <button type="button" class="close pull-right" aria-label="Close" (click)="deleteUserModal.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          <p>Do you want delete user?</p>
+          <button (click)="deleteUserModal.hide()" class="btn btn-default pull-right">No</button>
+          <button type="submit" class="btn btn-default pull-right" (click)="deleteUser()">Yes</button>
+        </div>
+      </div>
+    </div>
+    </div>

@@ -118,7 +118,6 @@
     <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="webpack.config.js" />
     <Content Include="xdomain.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
