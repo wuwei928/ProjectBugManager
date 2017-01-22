@@ -11,6 +11,7 @@ namespace ProjectBugManager.IService
     {
         List<User> Users();
         User GetUserById(Guid id);
+        User LoginUser(string userName, string password);
         void Create(User user);
         void Update(User user);
         void Delete(Guid id);

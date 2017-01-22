@@ -105,3 +105,5 @@ D:\Study\ProjectBugManager\ProjectBugManager.WebApi\obj\Debug\ProjectBugManager.
 D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Cors.dll
 D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.Cors.dll
 D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\System.Web.Http.Cors.xml
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Common.dll
+D:\Study\ProjectBugManager\ProjectBugManager.WebApi\bin\ProjectBugManager.Common.pdb

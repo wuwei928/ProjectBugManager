@@ -9,5 +9,6 @@ namespace ProjectBugManager.IRepository
 {
     public interface IUserRepository : IBaseRepository<User>
     {
+        User LoginUser(string userName, string password);
     }
 }

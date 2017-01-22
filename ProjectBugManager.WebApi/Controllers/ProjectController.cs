@@ -5,11 +5,13 @@ using System.Net;
 using System.Web.Http;
 using ProjectBugManager.DomainModel;
 using ProjectBugManager.IService;
+using ProjectBugManager.WebApi.Filter;
 using ProjectBugManager.WebApi.Models;
 
 namespace ProjectBugManager.WebApi.Controllers
 {
     [RoutePrefix("api/projects")]
+    [BaseAuthorizeAttribute]
     public class ProjectController : ApiController
     {
         private readonly IProjectService _projectService;
@@ -20,6 +22,7 @@ namespace ProjectBugManager.WebApi.Controllers
         }
         [Route("")]
         [HttpGet]
+        [AllowAnonymous]
         public List<ProjectViewModel> GetProjects()
         {
 
@@ -35,7 +38,7 @@ namespace ProjectBugManager.WebApi.Controllers
 
         [Route("")]
         [HttpPost]
-        public void CreateProject(ProjectViewModel projectDodel)
+        public ProjectViewModel CreateProject(ProjectViewModel projectDodel)
         {
             var project = new Project
             {
@@ -44,11 +47,12 @@ namespace ProjectBugManager.WebApi.Controllers
                 Remark = projectDodel.Remark
             };
             _projectService.Create(project);
+            return projectDodel;
         }
 
         [Route("")]
         [HttpPut]
-        public void EditProject(ProjectViewModel projectDodel)
+        public ProjectViewModel EditProject(ProjectViewModel projectDodel)
         {
             var project = new Project
             {
@@ -57,6 +61,7 @@ namespace ProjectBugManager.WebApi.Controllers
                 Remark = projectDodel.Remark
             };
             _projectService.Update(project);
+            return projectDodel;
         }
 
         [Route("{id}")]

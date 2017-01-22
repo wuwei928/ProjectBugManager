@@ -5,11 +5,13 @@ using System.Web;
 using System.Web.Http;
 using ProjectBugManager.DomainModel;
 using ProjectBugManager.IService;
+using ProjectBugManager.WebApi.Filter;
 using ProjectBugManager.WebApi.Models;
 
 namespace ProjectBugManager.WebApi.Controllers
 {
     [RoutePrefix("api/users")]
+    [BaseAuthorizeAttribute]
     public class UserController : ApiController
     {
         private readonly IUserService _userService;
@@ -22,7 +24,6 @@ namespace ProjectBugManager.WebApi.Controllers
         [HttpGet]
         public List<UserViewModel> GeUsers()
         {
-
             var users = _userService.Users().Select(x => new UserViewModel
             {
                 Id = x.Id.ToString(),
@@ -31,13 +32,13 @@ namespace ProjectBugManager.WebApi.Controllers
                 Principal = x.Principal,
                 UserName = x.UserName
             }).ToList();
-
-            return users;
+            throw  new  Exception("test");
+            //return users;
         }
 
         [Route("")]
         [HttpPost]
-        public void AddUsers(UserViewModel userModel)
+        public UserViewModel AddUsers(UserViewModel userModel)
         {
             var user = new User
             {
@@ -48,6 +49,8 @@ namespace ProjectBugManager.WebApi.Controllers
                 UserName = userModel.UserName
             };
             _userService.Create(user);
+
+            return userModel;
         }
 
         [Route("{id}")]
@@ -68,7 +71,7 @@ namespace ProjectBugManager.WebApi.Controllers
 
         [Route("")]
         [HttpPut]
-        public void EditUsers(UserViewModel userModel)
+        public UserViewModel EditUsers(UserViewModel userModel)
         {
             var user = new User
             {
@@ -79,6 +82,8 @@ namespace ProjectBugManager.WebApi.Controllers
                 UserName = userModel.UserName
             };
             _userService.Update(user);
+
+            return userModel;
         }
 
         [Route("{id}")]

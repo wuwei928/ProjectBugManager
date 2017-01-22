@@ -5,4 +5,5 @@ export class User {
     public Principal: string
     public UserName: string
     public Password: string
+    public Authorization:string
 }

@@ -22,7 +22,7 @@ export class UserListComponent {
     constructor(private userService: UserService, private shareService: ShareService, private location: Location) { }
 
     getUsers(): void {
-        this.userService.getUserList().subscribe(users => this.backupUsers(users))
+        this.userService.getUserList().subscribe(users => this.backupUsers(users));
     }
 
     backupUsers(users) {

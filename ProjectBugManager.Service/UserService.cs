@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ProjectBugManager.DomainModel;
+﻿using ProjectBugManager.DomainModel;
 using ProjectBugManager.IRepository;
 using ProjectBugManager.IService;
+using System;
+using System.Collections.Generic;
 
 namespace ProjectBugManager.Service
 {
@@ -25,6 +22,11 @@ namespace ProjectBugManager.Service
         public User GetUserById(Guid id)
         {
             return _userRepository.GetById(id);
+        }
+
+        public User LoginUser(string userName, string password)
+        {
+            return _userRepository.LoginUser(userName, password);
         }
 
         public void Create(User user)

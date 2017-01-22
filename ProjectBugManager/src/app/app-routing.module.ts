@@ -6,6 +6,7 @@ import { AddProjectComponent } from './bugManager/component/addProjectComponent'
 import { EditProjectComponent } from './bugManager/component/editProjectComponent'
 import { UserListComponent } from './bugManager/component/userListComponent'
 import { TestComponent } from './bugManager/component/testComponent'
+ import { LoginComponent } from './bugManager/component/loginComponent'
 
 const routers: Routes = [
     { path: '', redirectTo: '/projects', pathMatch: 'full' },
@@ -13,6 +14,7 @@ const routers: Routes = [
     { path: 'addProject', component: AddProjectComponent },
     { path: 'editProject/:id', component: EditProjectComponent },
     { path: 'users', component: UserListComponent },
+     { path: 'login', component: LoginComponent },
     { path: 'test', component: TestComponent }
 ];
 
