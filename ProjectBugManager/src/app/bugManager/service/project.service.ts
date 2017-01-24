@@ -1,56 +1,35 @@
 ﻿import { Injectable } from '@angular/core';
-import { Headers, Http, Response } from '@angular/http';
+import { HttpProxy } from '../common/http.proxy'
+import { Observable } from 'rxjs/Observable'
 
 import { Project } from '../model/projectModel';
 
 @Injectable()
 export class ProjectService {
-  private headers = new Headers({ 'Content-Type': 'application/json' });
 
-  private projectUrl = 'http://localhost:42833/api/projects';
+  constructor(private http: HttpProxy) { }
 
-  constructor(private http: Http) { }
-
-  getProjects(): Promise<Project[]> {
-    return this.http.get(this.projectUrl)
-      .toPromise()
-      .then(function (response) {
-        return response.json() as Project[];
-      })
-      .catch(this.handleError)
+  getProjects(): Observable<Project[]> {
+    return this.http.get("projects");
   }
 
-  getProjectById(id: string): Promise<Project> {
-    const url = this.projectUrl + '/' + id;
-    return this.http.get(url, { headers: this.headers })
-      .toPromise()
-      .then(project => project.json());
+  getProjectById(id: string): Observable<Project> {
+    const url = "projects" + '/' + id;
+    return this.http.get(url)
   }
 
-  deleteProject(id: string): Promise<void> {
-    const url = this.projectUrl + '/' + id;
-    return this.http.delete(url, { headers: this.headers })
-      .toPromise()
-      .then(() => null)
-      .catch(this.handleError)
+  deleteProject(id: string): Observable<void> {
+    const url = "projects" + '/' + id;;
+    return this.http.delete(url);
   }
 
-  createProject(project:Project): Promise<string> {
-    return this.http.post(this.projectUrl, JSON.stringify(project), { headers: this.headers })
-      .toPromise()
-      .then(() => name)
-      .catch(this.handleError);
+  createProject(project: Project): Observable<string> {
+    return this.http.post("projects", project);
+
   }
 
-  updateProject(project: Project): Promise<Project> {
-    return this.http.put(this.projectUrl, JSON.stringify(project), { headers: this.headers })
-      .toPromise()
-      .then(() => project)
-      .catch(this.handleError)
+  updateProject(project: Project): Observable<Project> {
+    return this.http.put("projects", project);
   }
 
-  private handleError(error: any): Promise<any> {
-    console.error('An error occurred', error); // for demo purposes only
-    return Promise.reject(error.message || error);
-  }
 }

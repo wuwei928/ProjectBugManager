@@ -1,35 +1,48 @@
-<div class="mask" *ngIf="isLoading">
-  <img class="spin" src="img/loading.gif" />
-</div>
-<alert class="global-message" type="danger" *ngIf="errorMessage.length>0"  style="z-index: 5000;position:fixed">
-  <span>{{errorMessage}}</span>
-</alert>
-<div class="navbar-default">
-  <div class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a routerLink='/projects'>Project</a></li>
-      <li><a routerLink='/users'>User</a></li>
-      <li><a routerLink='/test'>Test</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a routerLink='/test'>Test</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Separated link</a></li>
-          <li class="divider"></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
-    </ul>
+<div [ngClass]="headerModel.IsShowHeader? 'login-backgroud-white' : 'login-backgroud'">
+  <div class="mask" *ngIf="isLoading">
+    <img class="spin" src="img/loading.gif" />
   </div>
-</div>
-<div class="header">
-  <div class="container">
-    <span class="page-title">{{pageTitle}}</span>
+  <alert class="global-message" type="danger" *ngIf="errorMessage.length>0" style="z-index: 5000;position:fixed">
+    <span>{{errorMessage}}</span>
+  </alert>
+  <div class=" navbar navbar-default" *ngIf="headerModel.IsShowHeader">
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav" style="width: 100%">
+        <li class="active"><a routerLink='/projects'>Project</a></li>
+        <li><a routerLink='/users'>User</a></li>
+        <li><a routerLink='/test'>Test</a></li>
+        <li class="pull-right">
+          <div class="btn-group" dropdown keyboardNav="true" style="margin-top:10px">
+            <button id="simple-btn-keyboard-nav" type="button" class="btn btn-primary" dropdownToggle>
+           {{headerModel.UserName}}<span class="caret"></span>
+         </button>
+            <ul class="dropdown-menu" dropdownMenu role="menu" aria-labelledby="simple-btn-keyboard-nav">
+              <li role="menuitem"><a class="dropdown-item" (click)='logout()'>Logout</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
-<div class="container container-content">
-  <router-outlet></router-outlet>
+  <div class="header" *ngIf="headerModel.IsShowHeader">
+    <div class="container">
+      <span class="page-title">{{pageTitle}}</span>
+    </div>
+  </div>
+  <!--<div class="container container-content login-backgroud" [class.login-backgroud-white]="headerModel.IsShowHeader" >-->
+  <!--<div class="container container-content" [ngClass]="{'login-backgroud-white': headerModel.IsShowHeader, 
+'login-backgroud': !headerModel.IsShowHeader}">-->
+  <div class="container container-content login-backgroud" [ngClass]="headerModel.IsShowHeader? 'login-backgroud-white' : 'login-backgroud'">
+    <router-outlet></router-outlet>
+  </div>
+  <footer id="footer" *ngIf="headerModel.IsShowHeader">
+    <div class="col-xs-3">
+      <span class="text-uppercase">Butler</span> <br /> Forefront lokalbokning
+    </div>
+    <div class="col-xs-9">
+      <div class="pull-right support-email">
+        butler.support@svenskhandel.se
+      </div>
+    </div>
+  </footer>
 </div>

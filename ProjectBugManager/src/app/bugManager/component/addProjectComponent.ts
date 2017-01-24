@@ -21,7 +21,7 @@ export class AddProjectComponent {
         private router: Router,
         private location: Location) { }
     onSubmit() {
-        this.projectService.createProject(this.project).then(() => this.goBack());
+        this.projectService.createProject(this.project).subscribe(() => this.goBack());
     }
     goBack() {
         this.location.back();

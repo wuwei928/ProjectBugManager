@@ -14,31 +14,39 @@ export class HttpProxy {
     constructor(private http: Http, private router: Router, private shareService: ShareService) { }
 
     get(action: string): Observable<any> {
-        let actionUrl = this.setUrrlAndToken(action);
-        return this.http.get(actionUrl, this.options).map(res => res.json()).catch((error) => this.handleError(error));
+        let actionUrl = this.setUrlAndToken(action);
+        return this.http.get(actionUrl, this.options).map(res => res.json()).catch((error) => {
+            return this.handleError(error)
+        });
     }
 
     post(action: string, data: any): Observable<any> {
-        let actionUrl = this.setUrrlAndToken(action);
+        let actionUrl = this.setUrlAndToken(action);
         return this.http.post(actionUrl, JSON.stringify(data), this.options).map(res => res.json()).catch((error) => this.handleError(error))
     }
 
     put(action: string, data: any): Observable<any> {
-        let actionUrl = this.setUrrlAndToken(action);
+        let actionUrl = this.setUrlAndToken(action);
         return this.http.put(actionUrl, JSON.stringify(data), { headers: this.headers }).map(res => res.json()).catch((error) => this.handleError(error));
     }
 
     delete(action: string): Observable<any> {
-        let actionUrl = this.setUrrlAndToken(action);
+        let actionUrl = this.setUrlAndToken(action);
         return this.http.delete(actionUrl, this.options).catch((error) => this.handleError(error));
     }
 
     setHeader(token: string) {
-        this.headers.set("Authorization", "Basic " + token)
-        Cookie.set("token", token, 90);
+        this.headers.set("Authorization", "Basic " + token);
+        Cookie.set("token", token, 1)
     }
 
-    setUrrlAndToken(action: string): string {
+    removeCookieAndAuthorization() {
+        this.headers.delete("Authorization");
+        Cookie.delete("token");
+        Cookie.delete("HeaderInfo");
+    }
+
+    setUrlAndToken(action: string): string {
         this.headers.set("Authorization", "Basic " + Cookie.get("token"));
         return this.url + action;
     }
@@ -56,8 +64,8 @@ export class HttpProxy {
             this.router.navigate(["/login"]);
         } else {
             this.shareService.alertErrorMessage(errMsg);
-            return Observable.throw(errMsg);
         }
 
+        return Observable.throw(errMsg);
     }
 }

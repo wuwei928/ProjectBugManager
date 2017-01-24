@@ -26,14 +26,9 @@ export class EditProjectComponent {
         // this.projectService.getProjectById(id).then(project => this.project = project);
     }
     onSubmit() {
-        this.projectService.updateProject(this.project).then(() => this.goBack())
+        this.projectService.updateProject(this.project).subscribe(() => this.goBack())
     }
     goBack() {
         this.location.back();
     }
-    // setProject(project) {
-    //     this.project.id = project.Id;
-    //     this.project.name = project.Name;
-    //     this.project.remark = project.Remark;
-    // }
 }

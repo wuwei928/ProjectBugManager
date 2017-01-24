@@ -21,7 +21,7 @@ export class ProjectListComponent {
     getProjects(): void {
         this.projectService
             .getProjects()
-            .then((projects) => this.backupProject(projects))
+            .subscribe((projects) => this.backupProject(projects))
     }
 
     backupProject(projects) {
@@ -35,7 +35,7 @@ export class ProjectListComponent {
     }
 
     deleteProject(id: string) {
-        this.projectService.deleteProject(id).then(() => this.getProjects())
+        this.projectService.deleteProject(id).subscribe(() => this.getProjects())
     }
 
 

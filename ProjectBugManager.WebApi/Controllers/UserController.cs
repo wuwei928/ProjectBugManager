@@ -32,8 +32,8 @@ namespace ProjectBugManager.WebApi.Controllers
                 Principal = x.Principal,
                 UserName = x.UserName
             }).ToList();
-            throw  new  Exception("test");
-            //return users;
+   
+            return users;
         }
 
         [Route("")]
