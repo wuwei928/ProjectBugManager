@@ -65,7 +65,7 @@ export class HttpProxy {
         } else {
             this.shareService.alertErrorMessage(errMsg);
         }
-
         return Observable.throw(errMsg);
+
     }
 }

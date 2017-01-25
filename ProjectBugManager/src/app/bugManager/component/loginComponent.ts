@@ -44,7 +44,7 @@ export class LoginComponent {
 
     buildForm() {
         this.loginForm = this.formbuilder.group({
-            'name': ['UserName', Validators.required, EmailValidator],
+            'name': ['UserName', Validators.required],
             'password': ['Password', Validators.required]
         });
         this.loginForm.valueChanges.subscribe(data => this.onValueChanged(data))

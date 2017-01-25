@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { ModalModule, AlertModule,DropdownModule  } from 'ng2-bootstrap';
+import { ModalModule, AlertModule, DropdownModule } from 'ng2-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -23,6 +23,8 @@ import { UserService } from './bugManager/service/user.service'
 import { HttpProxy } from './bugManager/common/http.proxy'
 import { AccountService } from './bugManager/service/account.service'
 
+import { EmailValidator } from './bugManager/direactive/emailValidate'
+
 @NgModule({
     imports: [
         BrowserModule,
@@ -31,10 +33,10 @@ import { AccountService } from './bugManager/service/account.service'
         AppRoutingModule,
         ModalModule.forRoot(),
         AlertModule.forRoot(),
-        DropdownModule .forRoot()
+        DropdownModule.forRoot()
     ],
     declarations: [ProjectListComponent, AppComponent,
-        AddProjectComponent, EditProjectComponent, LoginComponent,
+        AddProjectComponent, EditProjectComponent, LoginComponent,EmailValidator,
         UserListComponent, HighLightDirective, TestComponent],
     providers: [ProjectService, ShareService, UserService, HttpProxy, AccountService],
     bootstrap: [AppComponent]
