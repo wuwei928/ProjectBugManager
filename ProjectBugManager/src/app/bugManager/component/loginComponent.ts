@@ -51,7 +51,9 @@ export class LoginComponent {
             'UserName': [null,
                 [Validators.required,
                 Validators.minLength(4),
-                Validators.maxLength(24), validateEmailFactory,forbiddenNameValidator(/bob/i)]],
+                Validators.maxLength(24), 
+                validateEmailFactory(/^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i),
+                forbiddenNameValidator(/bob/i)]],
             'UserPassword': [null, Validators.required]
         });
 

@@ -1,12 +1,12 @@
 import { Directive, forwardRef, OnChanges, SimpleChanges, Input } from '@angular/core';
 import { NG_VALIDATORS, AbstractControl, Validators, Validator, ValidatorFn } from '@angular/forms';
 
-export function validateEmailFactory(): ValidatorFn {
+export function validateEmailFactory(regExp: RegExp): ValidatorFn {
   return (control: AbstractControl): { [key: string]: any } => {
-    let EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+    let EMAIL_REGEXP = new RegExp(/^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i, 'i');
     const name = control.value;
     const no = EMAIL_REGEXP.test(control.value);
-    return no ? { 'validateEmail': control.value } : null;
+    return no ? { 'validateEmail': { name } } : null;
   };
 }
 
@@ -23,13 +23,15 @@ export class EmailValidatorDirective implements Validator, OnChanges {
   ngOnChanges(changes: SimpleChanges): void {
     const change = changes["validateEmail"]
     if (change) {
-      this.validateFunction = validateEmailFactory();
+      const val: string | RegExp = change.currentValue;
+      const regExp = val instanceof RegExp ? val : new RegExp(val, 'i');
+      this.validateFunction = validateEmailFactory(regExp);
     } else {
       this.validateFunction = Validators.nullValidator;
     }
   }
 
-  validate(c: AbstractControl): { [key: string]: any } {
-    return this.validateFunction(c);
+  validate(control: AbstractControl): { [key: string]: any } {
+    return this.validateFunction(control);
   }
 }
