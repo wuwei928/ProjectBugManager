@@ -1,0 +1,5 @@
+D:\Study\ProjectBugManager\ProjectBugManager.Common\bin\Debug\ProjectBugManager.Common.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Common\bin\Debug\ProjectBugManager.Common.pdb
+D:\Study\ProjectBugManager\ProjectBugManager.Common\obj\Debug\ProjectBugManager.Common.csprojResolveAssemblyReference.cache
+D:\Study\ProjectBugManager\ProjectBugManager.Common\obj\Debug\ProjectBugManager.Common.dll
+D:\Study\ProjectBugManager\ProjectBugManager.Common\obj\Debug\ProjectBugManager.Common.pdb
