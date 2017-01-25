@@ -12,10 +12,10 @@ import { ProjectService } from '../service/project.service'
 })
 
 export class AddProjectComponent {
-    project : Project={
-        Id:"0",
-        Name:"",
-        Remark:""
+    project: Project = {
+        Id: "0",
+        Name: "",
+        Remark: ""
     };
     constructor(private projectService: ProjectService,
         private router: Router,
@@ -28,4 +28,18 @@ export class AddProjectComponent {
         // this.router.navigate(['/projects']);
     }
     // get debug() { return JSON.stringify(this.project); }
+
+    formError = {
+        'Name': '',
+        'Remark': ''
+    }
+
+    errorMessages = {
+        'Name': {
+            'required': 'Name is required.'
+        },
+        'Remark': {
+            'required': 'password is required.'
+        }
+    }
 }

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core'
 import { AccountService } from '../service/account.service'
-import { FormGroup, FormBuilder, Validators } from '@angular/forms'
-import { EmailValidator } from '../direactive/emailValidate'
+import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms'
+import { validateEmailFactory } from '../directive/emailValidateDirective'
+import { forbiddenNameValidator } from '../directive/customValidateDirective'
 
 
 
@@ -12,25 +13,28 @@ import { EmailValidator } from '../direactive/emailValidate'
 })
 
 export class LoginComponent {
-    UserName: string;
-    Password: string;
-    constructor(private accountService: AccountService, private formbuilder: FormBuilder) { }
+    constructor(private accountService: AccountService, private fb: FormBuilder) { }
+
     login() {
-        this.accountService.login(this.UserName, this.Password);
+        var userName = this.loginForm.get('UserName').value;
+        var password = this.loginForm.get('UserPassword').value;
+        this.accountService.login(userName, password);
     }
 
     formError = {
         'UserName': '',
-        'Password': ''
+        'UserPassword': ''
     }
-
-
 
     errorMessages = {
         'UserName': {
-            'required': 'Name is required.'
+            'required': 'Name is required.',
+            'validateEmail': 'Please input correct email',
+            'minlength': 'Name must be at least 4 characters long.',
+            'maxlength': 'Name cannot be more than 24 characters long.',
+            'forbiddenName': 'Someone named "Bob" cannot be a hero.'
         },
-        'Password': {
+        'UserPassword': {
             'required': 'password is required.'
         }
     }
@@ -42,11 +46,15 @@ export class LoginComponent {
     }
 
 
-    buildForm() {
-        this.loginForm = this.formbuilder.group({
-            'name': ['UserName', Validators.required],
-            'password': ['Password', Validators.required]
+    buildForm(): void {
+        this.loginForm = this.fb.group({
+            'UserName': [null,
+                [Validators.required,
+                Validators.minLength(4),
+                Validators.maxLength(24), validateEmailFactory,forbiddenNameValidator(/bob/i)]],
+            'UserPassword': [null, Validators.required]
         });
+
         this.loginForm.valueChanges.subscribe(data => this.onValueChanged(data))
         this.onValueChanged();
     }
